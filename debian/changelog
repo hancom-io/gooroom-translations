@@ -1,3 +1,25 @@
+gooroom-translations (20210401+grm2u1) unstable; urgency=medium
+
+  [ seolhee ]
+  * [4c8c7845] Updated korean translations for NetworkManager
+
+  [ donghun ]
+  * [9da4d142] [Bug:3078,3121,3120,3107] Updated korean translations for metacity
+  * [963f7325] [Bug:3350] Updated translations for nemo
+
+  [ cjheo ]
+  * [2b92e4a5] '디스크공간부족' 메시지 수정을 위해 gnome-settings-daemon 번역파일 추가
+  * [2e3b3eaf] [Bug:3086,2572] gnome-screensaver 번역파일 추가
+  * [c645bd74] 빌드오류로 인해 gnome-screensaver-po를 gnome-screensaver-ko.po로 이름변경
+
+  [ boyeon.choi ]
+  * [588be76c] Updated translations for nm-applet: Connection delete dialog
+  * [06b4d78d] [Bug:2509] Updated Korean translations for gtk30: gtkprinteroptionwidget & gtkprintunixdialog
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 01 Apr 2021 10:03:00 +0900
+
 gooroom-translations (20201105+grm2u1) unstable; urgency=medium
 
   [ subin.kim ]
