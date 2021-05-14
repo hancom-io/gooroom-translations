@@ -305,6 +305,7 @@ msgid "_Icon Size"
 msgstr "아이콘 크기(_I)"
 
 #: src/nemo-desktop-icon-grid-view.c:1175 src/nemo-desktop-icon-view.c:720
+#: libnemo-private/nemo-file-operations.c:1580
 msgid "Empty Trash"
 msgstr "휴지통 비우기"
 
@@ -3957,6 +3958,11 @@ msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items?"
 msgstr[0] "정말로 선택한 %'d개 항목을 완전히 지우시겠습니까?"
 
+#: libnemo-private/nemo-file-operations.c:1553
+#: libnemo-private/nemo-file-operations.c:1621
+msgid "Permanently Delete"
+msgstr "영구 삭제"
+
 #: libnemo-private/nemo-file-operations.c:1629
 #, c-format
 msgid "%'d file left to delete"
@@ -3997,6 +4003,39 @@ msgstr "\"%B\" 폴더의 파일들에 대한 정보를 가져오는데 오류가
 #: libnemo-private/nemo-file-operations.c:3773
 msgid "_Skip files"
 msgstr "파일 건너 뛰기(_S)"
+
+#: libnemo-private/nemo-file-operations.c:1744
+#: libnemo-private/nemo-file-operations.c:1780
+#: libnemo-private/nemo-file-operations.c:1821
+#: libnemo-private/nemo-file-operations.c:1900
+#: libnemo-private/nemo-file-operations.c:2036
+#: libnemo-private/nemo-file-operations.c:2794
+#: libnemo-private/nemo-file-operations.c:2835
+#: libnemo-private/nemo-file-operations.c:2918
+#: libnemo-private/nemo-file-operations.c:3028
+#: libnemo-private/nemo-file-operations.c:3072
+#: libnemo-private/nemo-file-operations.c:3108
+#: libnemo-private/nemo-file-operations.c:3140
+#: libnemo-private/nemo-file-operations.c:3677
+#: libnemo-private/nemo-file-operations.c:3808
+#: libnemo-private/nemo-file-operations.c:3855
+#: libnemo-private/nemo-file-operations.c:3910
+#: libnemo-private/nemo-file-operations.c:3998
+#: libnemo-private/nemo-file-operations.c:4041
+#: libnemo-private/nemo-file-operations.c:4379
+#: libnemo-private/nemo-file-operations.c:4414
+#: libnemo-private/nemo-file-operations.c:4636
+#: libnemo-private/nemo-file-operations.c:4712
+#: libnemo-private/nemo-file-operations.c:5117
+#: libnemo-private/nemo-file-operations.c:5274
+#: libnemo-private/nemo-file-operations.c:5715
+#: libnemo-private/nemo-file-operations.c:6493
+#: libnemo-private/nemo-file-operations.c:6810
+#: libnemo-private/nemo-file-operations.c:6852
+#: libnemo-private/nemo-file-operations.c:6888
+#: libnemo-private/nemo-file-operations.c:6924
+msgid "Error"
+msgstr "오류"
 
 #: libnemo-private/nemo-file-operations.c:1753
 msgid ""
