@@ -4395,37 +4395,45 @@ msgstr "%F에 심볼릭 링크를 만드는 데 오류가 생겼습니다."
 msgid "Setting permissions"
 msgstr "권한 설정 중"
 
-#: libnemo-private/nemo-file-operations.c:6212
+#: libnemo-private/nemo-file-operations.c:6205
+msgid "Cannot trash or move desktop directory."
+msgstr "바탕화면 폴더는 삭제하거나 옮길 수 없습니다."
+
+#: libnemo-private/nemo-file-operations.c:6205
+msgid "User cannot drag Desktop directory to other directory."
+msgstr "바탕화면 폴더는 드래그하여 다른 폴더로 옮길 수 없습니다."
+
+#: libnemo-private/nemo-file-operations.c:6344
 msgid "Untitled Folder"
 msgstr "이름 없는 폴더"
 
-#: libnemo-private/nemo-file-operations.c:6224
+#: libnemo-private/nemo-file-operations.c:6356
 msgid "Untitled Document"
 msgstr "이름 없는 문서"
 
-#: libnemo-private/nemo-file-operations.c:6400
+#: libnemo-private/nemo-file-operations.c:6533
 msgid "Error while creating directory %B."
 msgstr "%B 디렉토리를 만드는 중 오류 생김."
 
-#: libnemo-private/nemo-file-operations.c:6402
+#: libnemo-private/nemo-file-operations.c:6535
 msgid "Error while creating file %B."
 msgstr "%B 파일을 만드는 중 오류가 생겼습니다."
 
-#: libnemo-private/nemo-file-operations.c:6404
+#: libnemo-private/nemo-file-operations.c:6537
 #, c-format
 msgid "There was an error creating the directory in %F."
 msgstr "%F 안에 디렉터리를 만드는 도중 오류가 생겼습니다."
 
-#: libnemo-private/nemo-file-operations.c:6634
-#: libnemo-private/nemo-file-operations.c:6635
-#: libnemo-private/nemo-file-operations.c:6668
+#: libnemo-private/nemo-file-operations.c:6768
+#: libnemo-private/nemo-file-operations.c:6769
+#: libnemo-private/nemo-file-operations.c:6802
 msgid "Emptying Trash"
 msgstr "휴지통을 비우는 중"
 
-#: libnemo-private/nemo-file-operations.c:6714
-#: libnemo-private/nemo-file-operations.c:6755
-#: libnemo-private/nemo-file-operations.c:6790
-#: libnemo-private/nemo-file-operations.c:6825
+#: libnemo-private/nemo-file-operations.c:6849
+#: libnemo-private/nemo-file-operations.c:6891
+#: libnemo-private/nemo-file-operations.c:6927
+#: libnemo-private/nemo-file-operations.c:6963
 msgid "Unable to mark launcher trusted (executable)"
 msgstr "실행 아이콘을 신뢰한다고(실행 가능하다고) 표시할 수 없습니다"
 
