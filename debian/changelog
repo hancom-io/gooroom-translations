@@ -1,3 +1,12 @@
+gooroom-translations (20210707+grm2u1) unstable; urgency=medium
+
+  [ heejun.jang ]
+  * [b3d41df3] [Bug:3408]Updated translations for nemo
+  * [96fbe0aa] [Bug:3701]Updated translations for nemo
+  * [8de2cd54] Updated translations for nemo
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Wed, 07 Jul 2021 12:08:43 +0900
+
 gooroom-translations (20210401+grm2u1) unstable; urgency=medium
 
   [ seolhee ]
