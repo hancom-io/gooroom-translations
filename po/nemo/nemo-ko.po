@@ -3335,6 +3335,10 @@ msgid ""
 "popup menu of the volume."
 msgstr "볼륨의 마운트를 해제 하시려면, 팝업 메뉴에서 \"볼륨 마운트해제\"를 사용하십시오."
 
+#: libnemo-private/nemo-desktop-link-monitor.c:152
+msgid "Download"
+msgstr "다운로드"
+
 #: libnemo-private/nemo-dnd.c:854
 msgid "_Move Here"
 msgstr "여기로 이동(_M)"
