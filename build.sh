@@ -50,6 +50,7 @@ metacity
 nautilus
 nemo
 nemo-extensions
+libnma
 )
 
 # Gooroom
