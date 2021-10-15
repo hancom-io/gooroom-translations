@@ -1100,3 +1100,100 @@ msgstr "파일 이름"
 #: gnome-flashback/libdesktop/gf-rename-popover.c:254
 msgid "Rename"
 msgstr "이름 변경"
+
+#: gnome-flashback/libscreensaver/gf-auth.c:421
+msgid "Your account was given a time limit that has now passed."
+msgstr "암호가 만료되었습니다"
+
+#: gnome-flashback/libscreensaver/gf-auth.c:425
+msgid "Sorry, that didn’t work. Please try again."
+msgstr "다시 시도해 주십시오"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:184
+msgid "Time has expired."
+msgstr ""
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:341
+msgid "Checking…"
+msgstr "확인하는 중…"
+
+#. login: is whacked always translate to Username:
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:372
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:373
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:374
+msgid "Username:"
+msgstr "사용자 이름:"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:375
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:376
+#, fuzzy
+msgid "Password:"
+msgstr "암호(_P):"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:377
+msgid "You are required to change your password immediately (password aged)"
+msgstr "즉시 암호를 바꿔야 합니다 (암호가 오래됨)"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:378
+msgid "You are required to change your password immediately (root enforced)"
+msgstr "즉시 암호를 바꿔야 합니다 (루트가 강제로 지정)"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:379
+msgid "Your account has expired; please contact your system administrator"
+msgstr "암호가 만료되었습니다; 시스템 관리자에게 연락하십시오"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:380
+msgid "No password supplied"
+msgstr "암호를 입력하지 않았습니다"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:381
+msgid "Password unchanged"
+msgstr "암호를 바꾸지 않았습니다"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:382
+msgid "Cannot get username"
+msgstr "사용자 이름을 읽을 수 없습니다"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:383
+msgid "Retype new Unix password:"
+msgstr "새 유닉스 암호를 다시 입력하십시오:"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:384
+msgid "Enter new Unix password:"
+msgstr "새 유닉스 암호를 입력하십시오:"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:385
+msgid "(current) Unix password:"
+msgstr "(현재) 유닉스 암호:"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:386
+msgid "Error while changing NIS password."
+msgstr "NIS 암호를 바꾸는 데 오류가 발생했습니다."
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:387
+msgid "You must choose a longer password"
+msgstr "더 긴 암호를 사용해야 합니다"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:388
+msgid "Password has been already used. Choose another."
+msgstr "암호를 이미 사용했습니다. 다른 암호를 사용하십시오."
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:389
+msgid "You must wait longer to change your password"
+msgstr "암호를 바꾸려면 좀 더 기다려야 합니다"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:390
+msgid "Sorry, passwords do not match"
+msgstr "암호가 일치하지 않습니다"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.ui:35
+msgid "Screen Locked"
+msgstr "화면이 잠겼습니다"
+
+#: gnome-flashback/libscreensaver/gf-unlock-dialog.ui:108
+msgid "Enter your password"
+msgstr "비밀번호 입력"
+
+#: gnome-flashback/libscreensaver/gf-panel-bottom.c:137
+msgid "logout"
+msgstr "로그아웃"
