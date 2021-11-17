@@ -1064,6 +1064,14 @@ msgstr "디스플레이 설정"
 msgid "Open Terminal"
 msgstr "터미널 열기"
 
+#: gnome-flashback/libdesktop/gf-icon-view.c:3350
+msgid "A folder with that name already exists."
+msgstr "같은 이름의 폴더가 이미 있습니다."
+
+#: gnome-flashback/libdesktop/gf-icon-view.c:3352
+msgid "A file with that name already exists."
+msgstr "같은 이름의 파일이 이미 있습니다."
+
 #: gnome-flashback/libdesktop/gf-icon.c:508
 msgid "Open"
 msgstr "열기"
