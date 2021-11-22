@@ -1607,19 +1607,19 @@ msgstr "모두 합치기(_A)"
 msgid "Copy _Anyway"
 msgstr "그래도 복사(_A)"
 
-#: src/nautilus-file-operations.c:333
+#: src/nautilus-file-operations.c:339
 #, c-format
 msgid "%'d second"
 msgid_plural "%'d seconds"
 msgstr[0] "%'d초"
 
-#: src/nautilus-file-operations.c:339 src/nautilus-file-operations.c:351
+#: src/nautilus-file-operations.c:345 src/nautilus-file-operations.c:357
 #, c-format
 msgid "%'d minute"
 msgid_plural "%'d minutes"
 msgstr[0] "%'d분"
 
-#: src/nautilus-file-operations.c:350 src/nautilus-file-operations.c:358
+#: src/nautilus-file-operations.c:356 src/nautilus-file-operations.c:364
 #, c-format
 msgid "%'d hour"
 msgid_plural "%'d hours"
@@ -1795,6 +1795,14 @@ msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items?"
 msgstr[0] "정말로 선택한 항목 %'d개를 완전히 삭제하시겠습니까?"
 
+#: src/nautilus-file-operations.c:1678 src/nautilus-file-operations.c:1760
+msgid "Permanently Delete"
+msgstr "영구 삭제"
+
+#: src/nautilus-file-operations.c:1705
+msgid "Empty Trash"
+msgstr "휴지통 비우기"
+
 #: src/nautilus-file-operations.c:1686
 #, c-format
 msgid "Deleted “%s”"
@@ -1816,6 +1824,25 @@ msgstr[0] "파일 %'d개 삭제함"
 msgid "Deleting %'d file"
 msgid_plural "Deleting %'d files"
 msgstr[0] "파일 %'d개 삭제중"
+
+#: src/nautilus-file-operations.c:2056 src/nautilus-file-operations.c:3397
+#: src/nautilus-file-operations.c:3458 src/nautilus-file-operations.c:3571
+#: src/nautilus-file-operations.c:3709 src/nautilus-file-operations.c:3773
+#: src/nautilus-file-operations.c:3821 src/nautilus-file-operations.c:3868
+#: src/nautilus-file-operations.c:4736 src/nautilus-file-operations.c:4903
+#: src/nautilus-file-operations.c:4971 src/nautilus-file-operations.c:5049
+#: src/nautilus-file-operations.c:5248 src/nautilus-file-operations.c:5359
+#: src/nautilus-file-operations.c:5403 src/nautilus-file-operations.c:5670
+#: src/nautilus-file-operations.c:5766 src/nautilus-file-operations.c:6180
+#: src/nautilus-file-operations.c:6380 src/nautilus-file-operations.c:6877
+#: src/nautilus-file-operations.c:7801 src/nautilus-file-operations.c:8284
+#: src/nautilus-file-operations.c:8346 src/nautilus-file-operations.c:8775
+msgid "Error"
+msgstr "오류"
+
+#: src/nautilus-file-operations.c:2378
+msgid "Immediately Delete"
+msgstr "즉시 삭제"
 
 #. To translators: %'d is the number of files completed for the operation,
 #. * so it will be something like 2/14.
