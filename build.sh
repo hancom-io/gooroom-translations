@@ -29,7 +29,7 @@ live-installer
 # Debian PO
 debian_po=(
 gnome-flashback
-gnome-mpv
+celluloid
 gnome-panel
 gnome-screenshot
 gnome-settings-daemon
@@ -50,6 +50,7 @@ metacity
 nautilus
 nemo
 nemo-extensions
+libnma
 )
 
 # Gooroom

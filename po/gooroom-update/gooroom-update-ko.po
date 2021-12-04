@@ -237,11 +237,11 @@ msgstr "업데이트 관리자"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1496
 msgid "Levels"
-msgstr "등급"
+msgstr "업데이트 종류"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1497
-msgid "Auto-Refresh & Upgrade"
-msgstr "자동 새로고침 & 업그레이드"
+msgid "Auto-Refresh"
+msgstr "업데이트 목록 자동 새로고침"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1498
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2028
@@ -300,23 +300,22 @@ msgstr "업데이트 목록 새로고침 주기:"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1515
 msgid ""
-"Note: The list only gets refreshed while the update manager window is closed "
+"The list gets refreshed while the update manager window is closed "
 "(system tray mode)."
 msgstr ""
-"주의: 이 목록은 업데이트 관리자 창이 닫혀있을 때에만 갱신됩니다. (시스템 트레"
-"이 모드)"
+"업데이트 관리자 창이 닫혀있는 시스템 트레이 모드에서 자동 갱신됩니다."
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1517
-msgid "Options"
-msgstr "옵션"
+msgid "General"
+msgstr "일반"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1519
 msgid "Auto Upgrade"
 msgstr "자동 업그레이드"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1520
-msgid "New Upgrade"
-msgstr "새 업그레이드"
+msgid "Update Frequency"
+msgstr "주기"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1521
 msgid "Time"
@@ -327,8 +326,7 @@ msgid ""
 "The system will be upgraded automatically with the latest software if it is "
 "on and running at the time."
 msgstr ""
-"설정된 시간에 단말기가 실행 중이면 최신 버전의 소프트웨어로 자동 업그레이드합"
-"니다."
+"설정된 시간에 단말기가 실행 중인 경우 자동으로 업그레이드합니다."
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1523
 msgid "Every Saturday"
@@ -367,8 +365,7 @@ msgid ""
 "Include updates which require the installation of new packages or the "
 "removal of installed packages"
 msgstr ""
-"새로운 패키지를 설치해야 하거나 설치된 패키지를 제거해야 하는 업데이트를 포함"
-"하고 있습니다"
+"새로운 패키지를 설치해야 하거나 설치된 패키지를 제거해야 하는 업데이트를 포함하기"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1555
 msgid "Always show security updates"
@@ -423,12 +420,12 @@ msgid "Information"
 msgstr "정보"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1658
-msgid "Process ID:"
-msgstr "프로세스 ID:"
+msgid "Process ID"
+msgstr "프로세스 ID"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1659
-msgid "Log file:"
-msgstr "로그 파일:"
+msgid "Log file"
+msgstr "로그 파일"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1674
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2210
@@ -464,7 +461,7 @@ msgstr "GB"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2019
 msgid "Upgrade"
-msgstr "업그레이드"
+msgstr "선택"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2040
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2183
@@ -558,6 +555,15 @@ msgstr "기본 설정(_P)"
 
 msgid "_Quit"
 msgstr "끝내기(_Q)"
+
+msgid "Update History"
+msgstr "업데이트 내역"
+
+msgid "List of updates"
+msgstr "업데이트 목록"
+
+msgid "Details"
+msgstr "자세히"
 
 #~ msgid "Icons"
 #~ msgstr "아이콘"
