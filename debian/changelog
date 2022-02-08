@@ -1,3 +1,83 @@
+gooroom-translations (20211204+grm3u1) unstable; urgency=medium
+
+  [ seolhee.sun ]
+  * [9fc37d37] Update for NetworkManager, nm-applet, libnma based gooroom-3.0
+
+  [ subin.kim ]
+  * [d45c2f50] Celluloid rebased
+  * [7ada1773] Updated translations for gooroom-update
+  * [4a9e180c] [Bug:4110]Updated translations for Synaptic
+  * [533ced9a] Updated translations for gooroom-update
+
+  [ heejun.jang ]
+  * [7cc5a281] Nemo rebased
+  * [ec291b24] Update translations for gnome-flashback desktop
+  * [2ad18746] [Bug:4203,4204,4225,4243,4244,4259]Fixed gnome-flashback nautilus translation issues
+  * [46d46a83] [Bug:4255]Update nautilus dialog title
+  * [0535b8b0] [Bug:4205]Updated nm-applet ipv6 privacy extension tooltip message
+
+  [ donghun ]
+  * [9112deea] Update translations for screensaver in gnome-flashback
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Sat, 04 Dec 2021 16:17:38 +0900
+
+gooroom-translations (20210707+grm2u1) unstable; urgency=medium
+
+  [ heejun.jang ]
+  * [b3d41df3] [Bug:3408]Updated translations for nemo
+  * [96fbe0aa] [Bug:3701]Updated translations for nemo
+  * [8de2cd54] Updated translations for nemo
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Wed, 07 Jul 2021 12:08:43 +0900
+
+gooroom-translations (20210401+grm2u1) unstable; urgency=medium
+
+  [ seolhee ]
+  * [4c8c7845] Updated korean translations for NetworkManager
+
+  [ donghun ]
+  * [9da4d142] [Bug:3078,3121,3120,3107] Updated korean translations for metacity
+  * [963f7325] [Bug:3350] Updated translations for nemo
+
+  [ cjheo ]
+  * [2b92e4a5] '디스크공간부족' 메시지 수정을 위해 gnome-settings-daemon 번역파일 추가
+  * [2e3b3eaf] [Bug:3086,2572] gnome-screensaver 번역파일 추가
+  * [c645bd74] 빌드오류로 인해 gnome-screensaver-po를 gnome-screensaver-ko.po로 이름변경
+
+  [ boyeon.choi ]
+  * [588be76c] Updated translations for nm-applet: Connection delete dialog
+  * [06b4d78d] [Bug:2509] Updated Korean translations for gtk30: gtkprinteroptionwidget & gtkprintunixdialog
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 01 Apr 2021 10:03:00 +0900
+
+gooroom-translations (20201105+grm2u1) unstable; urgency=medium
+
+  [ subin.kim ]
+  * [1dbb6b48] [Bug:2550] Updated korean translations for nm-applet
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 05 Nov 2020 15:32:19 +0900
+
+gooroom-translations (20201027+grm2u1) unstable; urgency=medium
+
+  [ donghun ]
+  * [c2fd8d7b] [Bug:2493] Add korean translation for nautilus
+  * [9c5767f3] Add Korean translation for live-installer
+  * [d572dbdc] Add korean translation for nemo
+
+  [ subin.kim ]
+  * [ad60161f] [Bug:2447] Add korean translation for system-config-printer
+
+  [ HaeRyong Jeong ]
+  * [beccf437] [Bug:2587] Update metacity-ko.po
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 27 Oct 2020 15:50:12 +0900
+
 gooroom-translations (20200707+grm2u1) unstable; urgency=medium
 
   [ boyeon.choi ]

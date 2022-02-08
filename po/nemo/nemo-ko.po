@@ -208,7 +208,7 @@ msgstr "사용자 이름(_U):"
 
 #: src/nemo-connect-server-dialog.c:1080
 msgid "Pass_word:"
-msgstr "비밀번호(_w)"
+msgstr "비밀번호(_w):"
 
 #: src/nemo-connect-server-dialog.c:1096
 msgid "_Remember this password"
@@ -305,6 +305,7 @@ msgid "_Icon Size"
 msgstr "아이콘 크기(_I)"
 
 #: src/nemo-desktop-icon-grid-view.c:1175 src/nemo-desktop-icon-view.c:720
+#: libnemo-private/nemo-file-operations.c:1580
 msgid "Empty Trash"
 msgstr "휴지통 비우기"
 
@@ -1785,6 +1786,50 @@ msgstr "복사(_C)"
 msgid "_Paste Into Folder"
 msgstr "폴더에 붙여넣기(_P)"
 
+#: src/nemo-view.c:8619
+msgid "P_in"
+msgstr "배열 맨 앞에 고정(_I)"
+
+#: src/nemo-view.c:8619
+msgid ""
+"Pin the selected file so it always appears at the top "
+"of this location's file list"
+msgstr ""
+"선택한 파일이 현재 위치의 파일 리스트에서 항상 "
+"맨 앞에 보이도록 고정합니다."
+
+#: src/nemo-view.c:8619
+msgid "Unp_in"
+msgstr "고정 해제(_I)"
+
+#: src/nemo-view.c:8619
+msgid ""
+"Unpin the selected file from the top "
+"of this location's file list"
+msgstr ""
+"선택한 파일을 현재 위치의 파일 리스트에서 "
+"고정 해제합니"
+
+#: src/nemo-places-sidebar.c:834 src/nemo-tree-sidebar.c:1527
+msgid "Favorites"
+msgstr "즐겨찾기"
+
+#: src/nemo-view.c:8627
+msgid "Add to favorites"
+msgstr "즐겨찾기에 추가"
+
+#: src/nemo-view.c:8628
+msgid "Add the selected file to your favorites"
+msgstr "선택한 파일을 즐겨찾기에 추가합니다"
+
+#: src/nemo-view.c:8631
+msgid "Remove from favorites"
+msgstr "즐겨찾기에서 제거"
+
+#: src/nemo-view.c:8632
+msgid "Remove the selected file from your favorites"
+msgstr "선택한 파일을 즐겨찾기에서 제거합니다"
+
 #: src/nemo-tree-sidebar.c:1357 src/nemo-view.c:8293 src/nemo-view.c:8411
 #: src/nemo-view.c:9821
 msgid "_Delete"
@@ -2361,8 +2406,8 @@ msgid "Move the current selection to the desktop"
 msgstr "선택한 내용을 바탕화면으로 옮깁니다"
 
 #: src/nemo-view.c:8471 src/nemo-view.c:8475
-msgid "Browse…"
-msgstr "찾아보기…"
+msgid "Browse..."
+msgstr "찾아보기..."
 
 #: src/nemo-view.c:8472
 msgid "Browse for a folder to move the selection to"
@@ -2982,6 +3027,10 @@ msgstr "숨긴 파일 보이기(_H)"
 msgid "Toggle the display of hidden files in the current window"
 msgstr "현재 창에 숨긴 파일의 정보를 표시합니다"
 
+#: src/nemo-window-menus.c:1471
+msgid "Toggle the display of thumbnails in the current directory"
+msgstr "현재 폴더에 항목의 썸네일을 표시합니다"
+
 #: src/nemo-window-menus.c:1330
 msgid "_Main Toolbar"
 msgstr "주요 도구 모음(_M)"
@@ -3333,6 +3382,10 @@ msgid ""
 "If you want to unmount the volume, please use \"Unmount Volume\" in the "
 "popup menu of the volume."
 msgstr "볼륨의 마운트를 해제 하시려면, 팝업 메뉴에서 \"볼륨 마운트해제\"를 사용하십시오."
+
+#: libnemo-private/nemo-desktop-link-monitor.c:152
+msgid "Download"
+msgstr "다운로드"
 
 #: libnemo-private/nemo-dnd.c:854
 msgid "_Move Here"
@@ -3957,6 +4010,11 @@ msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items?"
 msgstr[0] "정말로 선택한 %'d개 항목을 완전히 지우시겠습니까?"
 
+#: libnemo-private/nemo-file-operations.c:1553
+#: libnemo-private/nemo-file-operations.c:1621
+msgid "Permanently Delete"
+msgstr "영구 삭제"
+
 #: libnemo-private/nemo-file-operations.c:1629
 #, c-format
 msgid "%'d file left to delete"
@@ -3997,6 +4055,39 @@ msgstr "\"%B\" 폴더의 파일들에 대한 정보를 가져오는데 오류가
 #: libnemo-private/nemo-file-operations.c:3773
 msgid "_Skip files"
 msgstr "파일 건너 뛰기(_S)"
+
+#: libnemo-private/nemo-file-operations.c:1744
+#: libnemo-private/nemo-file-operations.c:1780
+#: libnemo-private/nemo-file-operations.c:1821
+#: libnemo-private/nemo-file-operations.c:1900
+#: libnemo-private/nemo-file-operations.c:2036
+#: libnemo-private/nemo-file-operations.c:2794
+#: libnemo-private/nemo-file-operations.c:2835
+#: libnemo-private/nemo-file-operations.c:2918
+#: libnemo-private/nemo-file-operations.c:3028
+#: libnemo-private/nemo-file-operations.c:3072
+#: libnemo-private/nemo-file-operations.c:3108
+#: libnemo-private/nemo-file-operations.c:3140
+#: libnemo-private/nemo-file-operations.c:3677
+#: libnemo-private/nemo-file-operations.c:3808
+#: libnemo-private/nemo-file-operations.c:3855
+#: libnemo-private/nemo-file-operations.c:3910
+#: libnemo-private/nemo-file-operations.c:3998
+#: libnemo-private/nemo-file-operations.c:4041
+#: libnemo-private/nemo-file-operations.c:4379
+#: libnemo-private/nemo-file-operations.c:4414
+#: libnemo-private/nemo-file-operations.c:4636
+#: libnemo-private/nemo-file-operations.c:4712
+#: libnemo-private/nemo-file-operations.c:5117
+#: libnemo-private/nemo-file-operations.c:5274
+#: libnemo-private/nemo-file-operations.c:5715
+#: libnemo-private/nemo-file-operations.c:6493
+#: libnemo-private/nemo-file-operations.c:6810
+#: libnemo-private/nemo-file-operations.c:6852
+#: libnemo-private/nemo-file-operations.c:6888
+#: libnemo-private/nemo-file-operations.c:6924
+msgid "Error"
+msgstr "오류"
 
 #: libnemo-private/nemo-file-operations.c:1753
 msgid ""
@@ -4356,37 +4447,45 @@ msgstr "%F에 심볼릭 링크를 만드는 데 오류가 생겼습니다."
 msgid "Setting permissions"
 msgstr "권한 설정 중"
 
-#: libnemo-private/nemo-file-operations.c:6212
+#: libnemo-private/nemo-file-operations.c:6205
+msgid "Cannot trash or move desktop directory."
+msgstr "바탕화면 폴더는 삭제하거나 옮길 수 없습니다."
+
+#: libnemo-private/nemo-file-operations.c:6205
+msgid "User cannot drag Desktop directory to other directory."
+msgstr "바탕화면 폴더는 드래그하여 다른 폴더로 옮길 수 없습니다."
+
+#: libnemo-private/nemo-file-operations.c:6344
 msgid "Untitled Folder"
 msgstr "이름 없는 폴더"
 
-#: libnemo-private/nemo-file-operations.c:6224
+#: libnemo-private/nemo-file-operations.c:6356
 msgid "Untitled Document"
 msgstr "이름 없는 문서"
 
-#: libnemo-private/nemo-file-operations.c:6400
+#: libnemo-private/nemo-file-operations.c:6533
 msgid "Error while creating directory %B."
 msgstr "%B 디렉토리를 만드는 중 오류 생김."
 
-#: libnemo-private/nemo-file-operations.c:6402
+#: libnemo-private/nemo-file-operations.c:6535
 msgid "Error while creating file %B."
 msgstr "%B 파일을 만드는 중 오류가 생겼습니다."
 
-#: libnemo-private/nemo-file-operations.c:6404
+#: libnemo-private/nemo-file-operations.c:6537
 #, c-format
 msgid "There was an error creating the directory in %F."
 msgstr "%F 안에 디렉터리를 만드는 도중 오류가 생겼습니다."
 
-#: libnemo-private/nemo-file-operations.c:6634
-#: libnemo-private/nemo-file-operations.c:6635
-#: libnemo-private/nemo-file-operations.c:6668
+#: libnemo-private/nemo-file-operations.c:6768
+#: libnemo-private/nemo-file-operations.c:6769
+#: libnemo-private/nemo-file-operations.c:6802
 msgid "Emptying Trash"
 msgstr "휴지통을 비우는 중"
 
-#: libnemo-private/nemo-file-operations.c:6714
-#: libnemo-private/nemo-file-operations.c:6755
-#: libnemo-private/nemo-file-operations.c:6790
-#: libnemo-private/nemo-file-operations.c:6825
+#: libnemo-private/nemo-file-operations.c:6849
+#: libnemo-private/nemo-file-operations.c:6891
+#: libnemo-private/nemo-file-operations.c:6927
+#: libnemo-private/nemo-file-operations.c:6963
 msgid "Unable to mark launcher trusted (executable)"
 msgstr "실행 아이콘을 신뢰한다고(실행 가능하다고) 표시할 수 없습니다"
 
@@ -5549,3 +5648,314 @@ msgstr "촘촘히 보기 버튼 보이기"
 #: gresources/nemo-file-management-properties.glade:3046
 msgid "Toolbar"
 msgstr "도구 모음"
+
+#: gresources/nemo-file-management-properties.glade:3325
+msgid "Visible Entries"
+msgstr "보이는 메뉴"
+
+#: gresources/nemo-file-management-properties.glade:3550
+msgid "Favorite"
+msgstr "즐겨찾기"
+
+#: gresources/nemo-file-management-properties.glade:3751
+msgid "Background"
+msgstr "폴더 배경"
+
+#: gresources/nemo-file-management-properties.glade:3356
+msgid "Selection"
+msgstr "파일/폴더 선택"
+
+#: gresources/nemo-file-management-properties.glade:4091
+msgid "Context Menus"
+msgstr "컨텍스트 메뉴"
+
+#: gresources/nemo-file-management-properties.glade:4074
+msgid ""
+"Visible action and extension entries can be configured "
+"in the Plugins tab"
+msgstr ""
+"플러그인 탭에서 보이는 동작 및 메뉴를 설정할 수 있습니다"
+
+#: gresources/nemo-file-management-properties.glade:4027
+msgid "_Customize"
+msgstr "커스텀"
+
+#: gresources/nemo-file-management-properties.glade:485
+msgid "_Inherit view type from parent"
+msgstr "부모 폴더로부터 보기 타입 상속 받기"
+
+#: gresources/nemo-file-management-properties.glade:546
+msgid "Reverse sort"
+msgstr "역순으로 정렬"
+
+#: gresources/nemo-file-management-properties.glade:1308
+msgid "Ask before moving files to the Trash"
+msgstr "휴지통으로 파일 옮기기 전에 물어보기"
+
+#: gresources/nemo-file-management-properties.glade:2324
+msgid "_Inherit thumbnail visibility from parent"
+msgstr "부모 폴더로부터 썸네일 보이기 상속 받기"
+
+#: gresources/nemo-file-management-properties.glade:2634
+msgid "Created date"
+msgstr "생성된 날짜"
+
+#: gresources/nemo-file-management-properties.glade:2741
+msgid "Visible Buttons"
+msgstr "보이는 버튼"
+
+#: gresources/nemo-file-management-properties.glade:2786
+msgid "Previous"
+msgstr "이전"
+
+#: gresources/nemo-file-management-properties.glade:2823
+msgid "Next"
+msgstr "다음"
+
+#: gresources/nemo-file-management-properties.glade:2860
+msgid "Up"
+msgstr "상위 폴더"
+
+#: gresources/nemo-file-management-properties.glade:2897
+msgid "Refresh"
+msgstr "새로 고침"
+
+#: gresources/nemo-file-management-properties.glade:3008
+msgid "Location entry toggle"
+msgstr "위치 입력 엔트리 토글 버튼"
+
+#: gresources/nemo-file-management-properties.glade:3045
+msgid "Open in terminal"
+msgstr "터미널에서 열기"
+
+#: gresources/nemo-file-management-properties.glade:3156
+msgid "Icon view"
+msgstr "아이콘 보기"
+
+#: gresources/nemo-file-management-properties.glade:3193
+msgid "List view"
+msgstr "목록 보기"
+
+#: gresources/nemo-file-management-properties.glade:3230
+msgid "Compact view"
+msgstr "촘촘히 보기"
+
+#: gresources/nemo-file-management-properties.glade:3267
+msgid "Show _Thumbnails"
+msgstr "썸네일 보기"
+
+#: gresources/nemo-file-management-properties.glade:3269
+msgid "Show Thumbnails"
+msgstr "썸네일 보기"
+
+#: libnemo-private/nemo-column-utilities.c:88
+msgid "Date Created"
+msgstr "생성된 날짜"
+
+#: libnemo-private/nemo-column-utilities.c:95
+msgid "Created - Time"
+msgstr "생성된 시간"
+
+#: src/nemo-window-menus.c:1314
+msgid "_Keyboard Shortcuts"
+msgstr "키보드 단축키"
+
+#: src/nemo-window-menus.c:1315
+msgid "Display keyboard shortcuts"
+msgstr "키보드 단축키를 표시합니다"
+
+#: gresources/nemo-shortcuts.ui:13
+msgid "General"
+msgstr "보편적인 기능"
+
+#: gresources/nemo-shortcuts.ui:17
+msgid "New window"
+msgstr "새 창"
+
+#: gresources/nemo-shortcuts.ui:24
+msgid "Close window or tab"
+msgstr "창 또는 탭 닫기"
+
+#: gresources/nemo-shortcuts.ui:31
+msgid "Close all windows"
+msgstr "모든 창 닫기"
+
+#: gresources/nemo-shortcuts.ui:38
+msgid "Toggle extra pane"
+msgstr "여분 화면 생성"
+
+#: gresources/nemo-shortcuts.ui:52
+msgid "Bookmark current location"
+msgstr "현재 위치 북마크"
+
+#: gresources/nemo-shortcuts.ui:59
+msgid "Edit bookmarks"
+msgstr "북마크 편집"
+
+#: gresources/nemo-shortcuts.ui:66
+msgid "Make link"
+msgstr "링크 만들기"
+
+#: gresources/nemo-shortcuts.ui:73
+msgid "Pin/Unpin selection"
+msgstr "선택 고정/고정 해제"
+
+#: gresources/nemo-shortcuts.ui:80
+msgid "Show help"
+msgstr "도움말 보기"
+
+#: gresources/nemo-shortcuts.ui:87
+msgid "Shortcuts"
+msgstr "단축키"
+
+#: gresources/nemo-shortcuts.ui:96
+msgid "Opening"
+msgstr "열기 기능"
+
+#: gresources/nemo-shortcuts.ui:107
+msgid "Open in new tab"
+msgstr "새 탭에서 열기"
+
+#: gresources/nemo-shortcuts.ui:114
+msgid "Open in new window"
+msgstr "새 창에서 열기"
+
+#: gresources/nemo-shortcuts.ui:121
+msgid "Open item location (recent files and search only)"
+msgstr "항목 위치 열기 (최근 파일, 검색에서만 가능)"
+
+#: gresources/nemo-shortcuts.ui:131
+msgid "Tabs"
+msgstr "탭 기능"
+
+#: gresources/nemo-shortcuts.ui:135
+msgid "New Tab"
+msgstr "새 탭"
+
+#: gresources/nemo-shortcuts.ui:142
+msgid "Go to previous tab"
+msgstr "이전 탭으로 이동"
+
+#: gresources/nemo-shortcuts.ui:149
+msgid "Go to next tab"
+msgstr "다음 탭으로 이동"
+
+#: gresources/nemo-shortcuts.ui:156
+msgid "Switch to tab"
+msgstr "다른 탭으로 전환"
+
+#: gresources/nemo-shortcuts.ui:163
+msgid "Move tab left"
+msgstr "왼쪽으로 탭 이동"
+
+#: gresources/nemo-shortcuts.ui:170
+msgid "Move tab right"
+msgstr "오른쪽으로 탭 이동"
+
+#: gresources/nemo-shortcuts.ui:179
+msgid "Navigation"
+msgstr "이동 기능"
+
+#: gresources/nemo-shortcuts.ui:183
+msgid "Go back"
+msgstr "이전으로 이동"
+
+#: gresources/nemo-shortcuts.ui:190
+msgid "Go forward"
+msgstr "다음으로 이동"
+
+#: gresources/nemo-shortcuts.ui:197
+msgid "Go up"
+msgstr "상위 폴더로 이동"
+
+#: gresources/nemo-shortcuts.ui:204
+msgid "Go down"
+msgstr "하위 폴더로 이동"
+
+#: gresources/nemo-shortcuts.ui:211
+msgid "Go to home folder"
+msgstr "홈폴더로 이동"
+
+#: gresources/nemo-shortcuts.ui:218
+msgid "Toggle location entry"
+msgstr "위치 엔트리로 이동"
+
+#: gresources/nemo-shortcuts.ui:227
+msgid "View"
+msgstr "보기 기능"
+
+#: gresources/nemo-shortcuts.ui:231
+msgid "Zoom in"
+msgstr "확대"
+
+#: gresources/nemo-shortcuts.ui:238
+msgid "Zoom out"
+msgstr "축소"
+
+#: gresources/nemo-shortcuts.ui:245
+msgid "Reset zoom"
+msgstr "확대/축소 초기화"
+
+#: gresources/nemo-shortcuts.ui:252
+msgid "Refresh view"
+msgstr "새로고침"
+
+#: gresources/nemo-shortcuts.ui:259
+msgid "Show/hide hidden files"
+msgstr "숨겨진 파일 보이기/숨기기"
+
+#: gresources/nemo-shortcuts.ui:266
+msgid "Show/hide sidebar"
+msgstr "사이드바 보이기/숨기기"
+
+#: gresources/nemo-shortcuts.ui:273
+msgid "Show/hide action menu"
+msgstr "동작 메뉴 보이기/숨기기"
+
+#: gresources/nemo-shortcuts.ui:303
+msgid "Editing"
+msgstr "편집 기능"
+
+#: gresources/nemo-shortcuts.ui:307
+msgid "Create folder"
+msgstr "폴더 생성"
+
+#: gresources/nemo-shortcuts.ui:314
+msgid "Rename"
+msgstr "이름 바꾸기"
+
+#: gresources/nemo-shortcuts.ui:321
+msgid "Move to trash"
+msgstr "휴지통으로 이동"
+
+#: gresources/nemo-shortcuts.ui:328
+msgid "Delete permanently"
+msgstr "영구히 삭제"
+
+#: gresources/nemo-shortcuts.ui:335
+msgid "Cut"
+msgstr "자르기"
+
+#: gresources/nemo-shortcuts.ui:342
+msgid "Copy"
+msgstr "복사하기"
+
+#: gresources/nemo-shortcuts.ui:349
+msgid "Paste"
+msgstr "붙여넣기"
+
+#: gresources/nemo-shortcuts.ui:356
+msgid "Select all"
+msgstr "모두 선택"
+
+#: gresources/nemo-shortcuts.ui:363
+msgid "Invert selection"
+msgstr "선택한 항목 반전 선택"
+
+#: gresources/nemo-shortcuts.ui:370
+msgid "Select items matching"
+msgstr "일치하는 항목 선택"
+
+#: gresources/nemo-shortcuts.ui:391
+msgid "Show item properties"
+msgstr "항목 속성 보기"
