@@ -4297,3 +4297,6 @@ msgstr "DER, PEM, 또는 PKCS#12 비밀 키(*.der, *.pem, *.p12, *.key)"
 
 msgid "Connection delete"
 msgstr "연결 제거"
+
+msgid "connection"
+msgstr "연결"
