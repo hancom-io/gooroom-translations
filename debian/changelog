@@ -1,3 +1,22 @@
+gooroom-translations (20220311+han3u1) unstable; urgency=medium
+
+  [ jongkyung.woo ]
+  * [856c8a00] Rebuild on gooroom-3.0
+  * [a46b94ec] Rebuild on gooroom-3.0
+
+  [ boyeon.choi ]
+  * [4b7314ec] live-installer initialization for hancom-3.0
+  * [d71ba7ed] [Bug:5141] Update for gtkfilechooser context menu
+  * [207afd0e] [Bug:5160] Corrected the translation error of live-installer
+
+  [ seolhee.sun ]
+  * [7ed5300e] [Bug:5070]Add translation mobile connection title for nm-applet
+
+  [ heejun.jang ]
+  * [a3adaed2] [Bug:5058]Updated video/audio column contents translation
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 11 Mar 2022 21:36:39 +0900
+
 gooroom-translations (20211204+grm3u1) unstable; urgency=medium
 
   [ seolhee.sun ]
