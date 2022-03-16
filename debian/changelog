@@ -1,3 +1,10 @@
+gooroom-translations (20220316+han3u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [d32fafe5] [5183] Update for Screenshot
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Wed, 16 Mar 2022 20:30:18 +0900
+
 gooroom-translations (20220311+han3u1) unstable; urgency=medium
 
   [ jongkyung.woo ]
