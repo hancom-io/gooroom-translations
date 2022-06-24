@@ -460,7 +460,7 @@ msgstr "암호가 필요하지 않습니다"
 
 #: src/nma-vpn-password-dialog.ui:39
 msgid "_OK"
-msgstr "_OK"
+msgstr "확인"
 
 #: src/nma-vpn-password-dialog.ui:73
 msgid "Sh_ow passwords"

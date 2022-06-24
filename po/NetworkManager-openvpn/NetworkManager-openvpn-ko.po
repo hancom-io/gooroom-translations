@@ -40,8 +40,8 @@ msgstr ""
 
 #: ../auth-dialog/main.c:175
 #, c-format
-msgid "Authenticate VPN %s"
-msgstr "VPN 인증 %s"
+msgid "Authentication required"
+msgstr "VPN 인증"
 
 #: ../auth-dialog/main.c:182 ../properties/nm-openvpn-dialog.ui.h:14
 msgid "Password:"

@@ -39,6 +39,7 @@ glib20
 grub
 libpwquality
 NetworkManager
+NetworkManager-openvpn
 nm-applet
 #network-manager-applet
 synaptic
