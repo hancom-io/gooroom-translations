@@ -1,3 +1,10 @@
+gooroom-translations (20220627+han3u1) unstable; urgency=medium
+
+  [ seolhee.sun ]
+  * [13f8e633] Add NetworkManager-openvpn translations
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Mon, 27 Jun 2022 08:22:00 +0900
+
 gooroom-translations (20220316+han3u1) unstable; urgency=medium
 
   [ boyeon.choi ]
